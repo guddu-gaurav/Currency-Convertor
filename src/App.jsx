@@ -52,7 +52,7 @@ const CurrencyConverter = () => {
             <h1 className="text-amber-600 text-3xl  font-semibold text-center mb-6">Currency Converter</h1>
             
             <div className="flex flex-col mb-4">
-                <label className="text-sm font-medium text-gray-600">Amount</label>
+                <label className="text-sm font-medium text-gray-700">Amount</label>
                 <input
                     type="number"
                     value={amount}
@@ -63,7 +63,7 @@ const CurrencyConverter = () => {
 
             <div className="grid grid-cols-2 gap-4 mb-4">
                 <div>
-                    <label className="text-sm font-medium text-gray-600">From</label>
+                    <label className="text-sm font-medium text-gray-700">From</label>
                     <select
                         value={fromCurrency}
                         onChange={(e) => setFromCurrency(e.target.value)}
